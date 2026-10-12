@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "cLSBP: code for 'A General Bayesian Nonparametric Approach for Estimating Population-Level and Conditional Causal Effects'"
+version: v1.0-OS-revision
+license: GPL-3.0-or-later
+authors:
+  - family-names: Hur
+    given-names: Yongseok
+  - family-names: Jung
+    given-names: Joonhyuk
+  - family-names: Lee
+    given-names: Juhee
+preferred-citation:
+  type: article
+  title: "A General Bayesian Nonparametric Approach for Estimating Population-Level and Conditional Causal Effects"
+  authors:
+    - family-names: Hur
+      given-names: Yongseok
+    - family-names: Jung
+      given-names: Joonhyuk
+    - family-names: Lee
+      given-names: Juhee
+  journal: "Observational Studies"
+  year: 2026

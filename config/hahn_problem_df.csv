@@ -1,0 +1,9 @@
+"linearity","TE_type","n_size"
+"lin","hom",250
+"non","hom",250
+"lin","het",250
+"non","het",250
+"lin","hom",500
+"non","hom",500
+"lin","het",500
+"non","het",500
