@@ -1,7 +1,8 @@
 ## ============================================================
 ## 2022 ACIC data challenge (Section 4.1): scoring against the official truths and the participants' results,
 ## and Figures 2-5. Sections were run interactively; later sections repeat earlier ones with updated inputs.
-## Requires the per-dataset results of acic_run.R (not included).
+## Requires the per-dataset results of acic_run.R (not included). Figures 2-5 of the paper were drawn with
+## acic_figures_revised.R.
 ## ============================================================
 
 source("R/requirements.R")

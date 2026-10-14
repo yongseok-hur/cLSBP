@@ -2,7 +2,7 @@
 ## 2022 ACIC data challenge (Section 4.1): cLSBP (H = 12, 6,000 iterations, first 3,000 discarded) with each
 ## propensity score estimator (BART, CBPS, GBM, LASSO, none) for one of the 3,400 practice-level datasets.
 ## Usage: Rscript scripts/acic/acic_run.R <dataset index 1-3400>   (all datasets: acic_run.sh)
-## Needs the challenge data (not redistributed here); output: results/ACIC_2022/240904/...
+## Needs the challenge data (not redistributed here); output: results/ACIC_2022/<date>/...
 ## ============================================================
 
 start_time <- Sys.time()
@@ -25,8 +25,8 @@ set.seed(base_seed + dataset_idx)
 
 ### 0. Basic settings ###
 
-# (240904 is a re-run of 240707 with the prior of sigma_h^2 changed from IG(5/2, 5/2) to IG(5, 1), i.e. nu0 = 10, s0^2 = 0.2)
-date <- "240904" # output folder results/ACIC_2022/<date>/, read by acic_score_figures.R
+# Prior of sigma_h^2: IG(5, 1), i.e. nu0 = 10, s0^2 = 0.2. The output folder below is that of the run used for Figures 2-5.
+date <- "251203" # output folder results/ACIC_2022/<date>/, read by acic_score_figures.R and acic_figures_revised.R
 dir_result <- paste0("results/ACIC_2022/", date, "/")
 
 ### 1. Problems ###
